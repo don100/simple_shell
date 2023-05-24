@@ -192,7 +192,7 @@ void clear_info(info_t *);
 void set_info(info_t *, char **);
 void free_info(info_t *, int);
 
-/*
+
 // toem_environ.c 
 char *_getenv(info_t *, const char *);
 int _myenv(info_t *);
@@ -232,6 +232,6 @@ void check_chain(info_t *, char *, size_t *, size_t, size_t);
 int replace_alias(info_t *);
 int replace_vars(info_t *);
 int replace_string(char **, char *);
-*/
+
 
 #endif
